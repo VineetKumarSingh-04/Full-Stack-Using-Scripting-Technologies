@@ -1,0 +1,60 @@
+p{
+    color: red;
+}
+
+
+/*descendant selector*/
+
+div p{
+    color: blue;
+}
+
+p.para{
+    color: green;
+}
+
+/* child selector */
+
+ul > li{
+    color: purple;
+}
+
+/* immediate shibling selector */
+
+#favcity{
+    color: orange;
+}
+
+li#favcity {
+    color: rgb(47, 0, 255);
+}
+
+#favcity + li {
+    color: rgb(0, 255, 0);
+}
+
+/* general sibling selector */
+
+#favcity ~ li {
+    color: rgb(255, 0, 0);
+}
+
+/* pseudo class */
+
+/* l v h a */
+
+a:link {
+    color: green;
+}
+
+a:visited {
+    color: purple;
+}
+
+a:hover {
+    color: red;
+}
+
+a:active {
+    color: blue;
+}
