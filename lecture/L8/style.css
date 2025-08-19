@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 32px;
+}
+
+#trump{
+    border: 2px solid black;
+    width: 30vw;
+    margin: 5vh auto;
+}
+
+body{
+    min-height: 100vh;
+}
+
+.t-image{
+    width: 60%;
+    height: 30%;
+    margin: 0 20%;
+}
+
+.t-name{
+    font-size: 2em;
+    width: 30%;
+    padding: 0 35%;
+}
+
+.t-desc{
+    font-size: 1rem;
+
+}
