@@ -17,6 +17,10 @@ p {
     color: green;
 }
 
+#spclpara {
+    color: purple;
+}
+
 /* id > attribut > class > element > universal */
 
 /* universal selector */
@@ -38,3 +42,7 @@ a[href="https://www.google.com"] {
 a[href="https://www.github.com"] {
     color: orange;
 }
+
+/* #link {
+    color: red;
+} */
