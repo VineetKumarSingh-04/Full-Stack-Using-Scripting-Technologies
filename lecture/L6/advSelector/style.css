@@ -1,60 +1,57 @@
-p{
+
+/* p{
     color: red;
-}
+} */
 
-
-/*descendant selector*/
+/* descendnet selector */
 
 div p{
     color: blue;
 }
 
 p.para{
+    color: aqua;
+}
+
+/* child selctor */
+
+ul>li{
+    color: magenta;
+}
+
+/* immediate sibling */
+
+/* #favCity + li{
+    color: chartreuse;
+} */
+
+li+li+li{
+    color: brown;
+}
+
+/* general sibling */
+
+/* #favCity ~ li{
     color: green;
-}
+} */
 
-/* child selector */
 
-ul > li{
-    color: purple;
-}
-
-/* immediate shibling selector */
-
-#favcity{
-    color: orange;
-}
-
-li#favcity {
-    color: rgb(47, 0, 255);
-}
-
-#favcity + li {
-    color: rgb(0, 255, 0);
-}
-
-/* general sibling selector */
-
-#favcity ~ li {
-    color: rgb(255, 0, 0);
-}
-
-/* pseudo class */
+/* psuedo class */
 
 /* l v h a */
 
-a:link {
-    color: green;
+a:link{
+    color: black;
 }
 
-a:visited {
-    color: purple;
+a:visited{
+    color: greenyellow;
 }
 
-a:hover {
+a:hover{
+    color: yellow;
+}
+
+a:active{
     color: red;
-}
-
-a:active {
-    color: blue;
 }
