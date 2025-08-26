@@ -1,0 +1,15 @@
+#li {
+    margin: 30px;
+    padding: 10px;
+    border: 5px solid #030000;
+}
+ * {
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    margin: 30px;
+    padding: 10px;
+    border: 5px solid #030000;
+}
